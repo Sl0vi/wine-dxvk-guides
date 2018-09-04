@@ -9,12 +9,12 @@ Synopsis
 --------------------------------------------------------------------------------
 
 Videos, menus and gameplay works fine, but certain video settings cause issues
-and must be set correctly for the games video output to freeze.
+and must be set correctly for the game's video output not to freeze.
 
 The game also has a tendency to freeze when trying to exit normally.
 
-- Do not set fidelity higher than medium.
-- Do not enable Bloom Render.
+- **DO NOT** set fidelity higher than medium.
+- **DO NOT** enable Bloom Render.
 
 These two settings cause the game's video output to freeze. Keep them set as
 recommended and you should not have any issues during normal gameplay.
