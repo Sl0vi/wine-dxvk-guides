@@ -38,14 +38,15 @@ options screen.
 
 You can set all the video options to maximum except fidelity and bloom Render.
 
-Bloom Render **MUST** be turned off or the games video output will freeze
+Bloom Render **MUST** be turned off or the game's video output will freeze
 already at startup.
 
-Fidelity **MUST NOT** be set to higher than medium or the games video output
+Fidelity **MUST NOT** be set to higher than medium or the game's video output
 will freeze as soon as you get in-game.
 
 The game tends to freeze when changing video options. If it does, kill the
-process and restart the game. It should start normally with your new options.
+process and restart the game. It should start normally with your new options set
+correctly.
 
 If the game failed to start normally and you couldn't create a profile, you will
 need to edit the games configuration file.
@@ -56,9 +57,9 @@ file in a text editor.
 
 Add the following option to the options_override section:
 
-bloom_render = {
-    default = 0
-}
+    bloom_render = {
+        default = 0
+    }
 
 Save and start the game. The game should now start and you should be able to
 create a profile and set your video settings in-game.
