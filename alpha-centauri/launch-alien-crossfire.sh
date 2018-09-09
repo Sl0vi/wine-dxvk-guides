@@ -8,9 +8,10 @@
 GAMEPATH="drive_c/alpha_centauri"
 EXE="terranx.exe"
 
-DIR="${BASH_SOURCE%/*}"
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 . "${DIR}/wine-env.sh"
 
 cd "${DIR}/${GAMEPATH}"
 wine "${EXE}"
+
