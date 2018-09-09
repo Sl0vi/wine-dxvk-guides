@@ -8,8 +8,9 @@
 GAMEPATH="drive_c/alpha_centauri"
 EXE="terran.exe"
 
-. wine-env.sh
+DIR="${BASH_SOURCE%/*}"
 
-cd "${GAMEPATH}"
+. "${DIR}/wine-env.sh"
+
+cd "${DIR}/${GAMEPATH}"
 wine "${EXE}"
-
