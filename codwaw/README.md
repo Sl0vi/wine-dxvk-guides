@@ -26,8 +26,9 @@ required.
 
 ### Initial installation ###
 
-First copy the entire contents of your disc to your harddrive. This is necessary
-or the installation will fail before the needed folders and registry entries are
+First copy the entire contents of your disc to your harddrive and run setup.exe
+from where you copied the disc contents to. This is necessary or the
+installation will fail before the needed folders and registry entries are
 created.
 
 If the installation succeeds, then congratulations! Skip the "Fixing the broken
