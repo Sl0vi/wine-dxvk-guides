@@ -101,6 +101,20 @@ To fix this open up winecfg and add the following library override:
 
 - xaudio2_0 (native, builtin)
 
+Next you will need to install the native version of DirectX that the game
+requires.
+
+Navigate to where you copied the installation files. There should be a folder
+called DirectX. Copy the folder to drive_c in your wine prefix. **This is
+important, DirectX will not install correctly if not run from inside drive_c**
+
+Open the DirectX folder in drive_c and run DXSETUP.exe with wine.
+
+Follow the instructions in the installer and install DirectX.
+
+Once DirectX is installed your Wine prefix should have the native xaudio2_0 DLL
+installed that is needed for sound to work properly ingame.
+
 ### Final fixes ###
 
 The game also seems to run the most stable with compatibility mode set to
